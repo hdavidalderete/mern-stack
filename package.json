@@ -1,0 +1,31 @@
+{
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "description": "complete application created with the technologies MongoDB - NodeJs - Express - Reactjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdavidalderete/mern-stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hdavidalderete/mern-stack/issues"
+  },
+  "homepage": "https://github.com/hdavidalderete/mern-stack#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "webpack": "^5.52.1"
+  }
+}
